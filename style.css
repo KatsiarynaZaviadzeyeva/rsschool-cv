@@ -1,0 +1,180 @@
+html {
+    scroll-behavior: smooth;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #424a4a;
+    color: #5c5b75;
+    font: 20px 'Heebo', sans-serif;
+}
+
+h1 {
+    margin-bottom: 8px;
+    font-size: 40px;
+}
+
+h2 {
+    margin-bottom: 40px;
+    text-align: center;
+    color: #bda37e;
+    font-weight: 400;
+}
+
+a {
+    text-decoration: none;
+    color: #5c5b75;
+}
+
+a:hover {
+    color: #bda37e;
+}
+
+.nav-list {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    list-style: none;
+}
+
+.nav-link {
+    color: #bda37e;
+}
+
+.nav-link:hover {
+    color: #5c5b75;
+}
+
+.line {
+    width: 100%;
+    height: 3px;
+    background-color: #424a4a;
+    margin: auto;
+}
+
+.header {
+    margin: 40px auto 8px;
+    background-color: #f0f5f7;
+    max-width: 1100px;
+}
+
+.intro {
+    display: flex;
+    justify-content: space-between;
+    padding: 40px;
+}
+
+.avatar {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    box-shadow: 4px 4px 14px rgba(0, 0, 0, .25);
+}
+
+.intro-text {
+    margin: auto;
+}
+
+.contacts-info {
+    display: flex;
+    background-color: #f0f5f7;
+    max-width: 1100px;
+    margin: auto;
+    padding: 40px 30px 40px 10px;
+    margin-bottom: 8px;
+}
+
+.about {
+    margin-left: 100px;
+    text-align: justify;
+    text-indent: 20px;
+    line-height: 150%;
+}
+
+.contacts {
+    text-align: left;
+    padding-left: 20px;
+}
+
+.contacts li {
+    display: flex;
+    list-style: none;
+    margin-bottom: 20px;
+    font-size: 18px;
+}
+
+.contacts li img {
+    vertical-align: middle;
+    margin-right: 25px;
+}
+
+.main {
+    display: flex;
+    background-color: #f0f5f7;
+    max-width: 1100px;
+    margin: auto;
+    padding: 40px 10px;
+}
+
+.projects {
+    padding-left: 70px;
+}
+
+.projects-item {
+    margin-bottom: 40px;
+}
+
+.projects-link,
+.project-img {
+    width: 200px;
+    height: 120px;
+    text-decoration: none;
+    color: #5c5b75;
+    font-size: 18px
+}
+
+.info {
+    margin-left: 250px;
+}
+
+.info li {
+    padding-bottom: 10px;
+}
+
+.info ul {
+    padding-left: 60px;
+}
+
+.line-info {
+    width: 98%;
+    height: 3px;
+    background-color: #424a4a;
+    margin: 20px auto 40px;
+}
+
+.footer {
+    margin: auto;
+    margin-bottom: 40px;
+    padding: 10px;
+    background-color: #f0f5f7;
+    max-width: 1100px;
+    display: flex;
+}
+
+.footer-github {
+    display: flex;
+}
+
+.footer-github img {
+    margin-right: 5px;
+    vertical-align: middle;
+}
+
+footer div {
+    margin: auto;
+}

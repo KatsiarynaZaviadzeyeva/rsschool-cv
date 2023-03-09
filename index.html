@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="icon" href="./img/my_photo.jpg" type="image/png" sizes="32x32">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header">
+        <nav class="nav">
+            <ul class="nav-list">
+                <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
+                <li class="nav-item"><a href="#about" class="nav-link">About me</a></li>
+                <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
+                <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+                <li class="nav-item"><a href="#code" class="nav-link">Code Example</a></li>
+                <li class="nav-item"><a href="#languages" class="nav-link">Languages</a></li>
+                <li class="nav-item"><a href="#projects" class="nav-link">Projects</a></li>
+            </ul>
+        </nav>
+        <div class="line"></div>
+        <article class="intro">
+            <figure>
+                <img src="img/my_photo.jpg" alt="photo Katsiaryna" class="avatar">
+            </figure>
+            <div class="intro-text">
+                <h1>Katsiaryna Zaviadzeyeva</h1>
+                <p>Junior Front-End Developer</p>
+            </div>
+        </article>
+    </header>
+    <section class="contacts-info">
+        <div class="contacts" id="contacts">
+            <h2>Contacts</h2>
+            <ul>
+                <li>
+                    <div>
+                        <img src="./img/location.png" alt="location icon">
+                    </div>
+                    <p>Vitebsk, Belarus</p>
+                </li>
+                <li>
+                    <div>
+                        <img src="./img/email.png" alt="email icon">
+                    </div>
+                    <p>katerinazavedeeva@gmail.com</p>
+                </li>
+                <li>
+                    <div>
+                        <img src="./img/github.png" alt="github icon">
+                    </div>
+                    <p>KatsiarynaZaviadzeyeva</p>
+                </li>
+                <li>
+                    <div>
+                        <img src="./img/discord.png" alt="discord icon">
+                    </div>
+                    <p>Kate (@Katerina Zavedeeva#4234)</p>
+                </li>
+            </ul>
+        </div>
+        <div class="about" id="about">
+            <h2>About me</h2>
+            <p>My last job was related with interior design. In the process of doing projects, I got acquainted with
+                HTML and
+                CSS, became interested in this and began to deepen my knowledge. I like to learn something new and
+                develop, so I
+                decided to change my profession. I have a lot of desire, drive and enthusiasm to expand my knowledge and
+                improve
+                my skills in software development. I think that rs-school is a great opportunity to fulfill my
+                aspirations and
+                become a sought-after front-end developer.
+            </p>
+        </div>
+    </section>
+    <main class="main">
+        <section class="projects" id="projects">
+            <h2>Projects</h2>
+            <div class="projects-item">
+                <a class="projects-link"
+                    href="https://katsiarynazaviadzeyeva.github.io/frontend-marathon/01-cards/index.html"
+                    target="_blank">
+                    <figure>
+                        <img class="project-img" src="./img/cards.jpg" alt="cards">
+                        <figcaption>Cards</figcaption>
+                    </figure>
+                </a>
+            </div>
+            <div class="projects-item">
+                <a class="projects-link"
+                    href="https://katsiarynazaviadzeyeva.github.io/frontend-marathon/03-slider/index.html"
+                    target="_blank">
+                    <figure>
+                        <img class="project-img" src="./img/slider.jpg" alt="slider">
+                        <figcaption>Slider</figcaption>
+                    </figure>
+                </a>
+            </div>
+            <div class="projects-item">
+                <a class="projects-link"
+                    href="https://katsiarynazaviadzeyeva.github.io/frontend-marathon/04-board/index.html"
+                    target="_blank">
+                    <figure>
+                        <img class="project-img" src="./img/board.jpg" alt="board">
+                        <figcaption>Board</figcaption>
+                    </figure>
+                </a>
+            </div>
+            <div class="projects-item">
+                <a class="projects-link"
+                    href="https://katsiarynazaviadzeyeva.github.io/frontend-marathon/05-aim-game/index.html"
+                    target="_blank">
+                    <figure>
+                        <img class="project-img" src="./img/game.jpg" alt="game">
+                        <figcaption>Aim Game</figcaption>
+                    </figure>
+                </a>
+            </div>
+            <div class="projects-item">
+                <a class="projects-link"
+                    href="https://rolling-scopes-school.github.io/katsiarynazaviadzeyeva-JSFEPRESCHOOL2022Q4/momentum/"
+                    target="_blank">
+                    <figure>
+                        <img class="project-img" src="./img/momentum.png" alt="momentum">
+                        <figcaption>Momentum</figcaption>
+                    </figure>
+                </a>
+            </div>
+        </section>
+        <section class="info">
+            <div class="info-container" id="skills">
+                <h2>Skills</h2>
+                <ul>
+                    <li>HTML5, CSS3</li>
+                    <li>JavaScript (basics)</li>
+                    <li>Databases and SQL</li>
+                    <li>OOP and Java (basics)</li>
+                    <li>Git, GitHub</li>
+                    <li>VS Code, NetBeans, Eclipse</li>
+                </ul>
+            </div>
+            <div class="line-info"></div>
+            <div class="info-container" id="code">
+                <h2>Code example</h2>
+                <pre>
+        function solution(number) {
+            let sum = 0;
+                    for (let i = 1; i &lt; number; i++) {
+                if (i % 3 == 0 || i % 5 == 0) {
+                    sum += i;
+                 }
+            }
+            return sum;
+        }
+    </pre>
+            </div>
+            <div class="line-info"></div>
+            <div class="info-container" id="education">
+                <h2>Education</h2>
+                <ul>
+                    <li>1999 - 2004 Vitebsk State Technological University
+                        <ul>
+                            <li>Manufacturing Engineer</li>
+                        </ul>
+                    </li>
+                    <li>2019 - 2021 Vitebsk State Technological University
+                        <ul>
+                            <li>Software Engineer</li>
+                        </ul>
+                    </li>
+                    <li>Studying HTML and CSS
+                        <ul>
+                            <li>
+                                <a href="http://code.mu/ru/markup/book/prime/"
+                                    target="_blank">http://code.mu/ru/markup/book/prime/</a>
+                            </li>
+                            <li>
+                                <a href="https://result.school/products/html-css"
+                                    target="_blank">https://result.school/products/html-css</a>
+                            </li>
+                            <li>
+                                <a href="https://wayup.in/ru/library/course10"
+                                    target="_blank">https://wayup.in/ru/library/course10</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>Studying JavaScript
+                        <ul>
+                            <li>
+                                <a href="https://learn.javascript.ru/" target="_blank">https://learn.javascript.ru/</a>
+                            </li>
+                            <li>
+                                <a href="https://code.mu/ru/javascript/book/prime/"
+                                    target="_blank">https://code.mu/ru/javascript/book/prime/</a>
+                            </li>
+                            <li>
+                                <a href="https://result.school/products/marathon-js"
+                                    target="_blank">https://result.school/products/marathon-js</a>
+                            </li>
+                            <li>
+                                <a href="https://rs.school/js/" target="_blank">https://rs.school/js/</a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+            <div class="line-info"></div>
+            <div class="info-container" id="languages">
+                <h2>Languages</h2>
+                <ul>
+                    <li>Belarusian</li>
+                    <li>Russian</li>
+                    <li>English A2-B1 (I keep learning English)
+                        <ul>
+                            <li>CEFR Level A1 Trinity College London, January 2022</li>
+                            <li>CEFR Level A2 Language school Veni Vidi Vici Vitebsk, September 2022</li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </section>
+    </main>
+    <div class="line"></div>
+    <footer class="footer">
+        <div class="footer-github">
+            <a href="https://github.com/KatsiarynaZaviadzeyeva" target="_blank"><img src="./img/github.png"
+                    alt="Git Hub logo">
+                <p>My GitHub</p>
+            </a>
+        </div>
+        <p>© 2023</p>
+        <div>
+            <a href="https://rs.school" target="_blank"><img src="./img/rs_school.png" width="86" height="32"
+                    alt="RS School logo"></a>
+        </div>
+    </footer>
+</body>
+</html>
